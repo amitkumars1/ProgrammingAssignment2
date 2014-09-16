@@ -3,6 +3,7 @@
 # Inverse of a matrix is calculated using solve function of base R(?solve)
 
 ######working example
+# source("cachematrix.R")
 # mat = replicate(10,rnorm(10))
 # mat.list = makeCacheMatrix(mat)
 # cacheSolve(mat.list)
